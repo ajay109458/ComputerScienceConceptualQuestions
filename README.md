@@ -86,3 +86,14 @@ where M is length of the string.
 An AVL tree is a self-balancing binary search tree. In an AVL tree, the heights of the two child subtrees of any node differ by at most one; if at any time they differ by more than one, rebalancing is done to restore this property.
 
 All time complexities - O(log n)
+
+## What is Red Black tree?
+A red–black tree is a kind of self-balancing binary search tree. Each node of the binary tree has an extra bit, and that bit is often interpreted as the color of the node. These color bits are used to ensure the tree remains approximately balanced during insertions and deletions.
+
+Properties of Red black tree
+1. Every node has a color either red or black.
+2. Root of tree is always black.
+3. There are no two adjacent red nodes (A red node cannot have a red parent or red child).
+4. Every path from a node (including root) to any of its descendant NULL node has the same number of black nodes.
+
+All operations are O(log n)
