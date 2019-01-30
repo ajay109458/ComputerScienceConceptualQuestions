@@ -97,3 +97,17 @@ Properties of Red black tree
 4. Every path from a node (including root) to any of its descendant NULL node has the same number of black nodes.
 
 All operations are O(log n)
+
+## What is Hash table ?
+A hash table is a data structure that is used to store keys/value pairs. It uses a hash function to compute an index into an array in which an element will be inserted or searched. By using a good hash function, hashing can work well.
+
+### Collision
+If two get generates results into same bucket, then it is known as collision state. 
+
+### Collision resolution techniques
+
+#### Open Hashing
+In case of collision, element is being stored as linked list. 
+
+#### Closed hashing
+When there is a collision, next unfilled bucket is being searched  linearly. 
