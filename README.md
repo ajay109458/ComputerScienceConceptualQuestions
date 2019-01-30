@@ -62,3 +62,23 @@ A BST is a binary tree where nodes are ordered in the following way:
 - Search : O(n)
 
 Reference - [BigOCheetSheet](http://bigocheatsheet.com/)
+
+### What is Trie datastructure ?
+A trie is a tree-like data structure whose nodes store the letters of an alphabet. By structuring the nodes in a particular way, words and strings can be retrieved from the structure by traversing down a branch path of the tree.
+
+```
+struct TrieNode
+{
+     struct TrieNode *children[ALPHABET_SIZE];
+
+     // isEndOfWord is true if the node
+     // represents end of a word
+     bool isEndOfWord;
+};
+```
+
+- Insert a word - O(M)
+- Search a word - O(M)
+
+where M is length of the string. 
+
