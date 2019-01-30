@@ -19,3 +19,7 @@ ASCII:       45 78 61 6d 70 6c 65
 UTF-16BE:    FE FF 00 45 00 78 00 61 00 6d 00 70 00 6c 00 65
 UTF-16LE:    FF FE 45 00 78 00 61 00 6d 00 70 00 6c 00 65 00
 ```
+
+Big Endian -> Big number will be stored at end.
+
+Little Endian -> Little number will be stored at end.
