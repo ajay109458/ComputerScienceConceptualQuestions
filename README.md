@@ -63,7 +63,7 @@ A BST is a binary tree where nodes are ordered in the following way:
 
 Reference - [BigOCheetSheet](http://bigocheatsheet.com/)
 
-### What is Trie datastructure ?
+## What is Trie datastructure ?
 A trie is a tree-like data structure whose nodes store the letters of an alphabet. By structuring the nodes in a particular way, words and strings can be retrieved from the structure by traversing down a branch path of the tree.
 
 ```
@@ -82,3 +82,7 @@ struct TrieNode
 
 where M is length of the string. 
 
+##  What is AVL tree ?
+An AVL tree is a self-balancing binary search tree. In an AVL tree, the heights of the two child subtrees of any node differ by at most one; if at any time they differ by more than one, rebalancing is done to restore this property.
+
+All time complexities - O(log n)
