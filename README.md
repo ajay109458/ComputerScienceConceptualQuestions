@@ -50,3 +50,14 @@ A BST is a binary tree where nodes are ordered in the following way:
 - The keys in the right subtree are greater the key in its parent node, in short P < R;
 - Duplicate keys are not allowed.
 
+## Binary Search Tree (BST) Complexities
+#### Average
+- Insert : O(log n)
+- Delete : O(log n)
+- Search : O(log n)
+
+#### Worst
+- Insert : O(n)
+- Delete : O(n)
+- Search : O(n)
+
