@@ -23,3 +23,5 @@ UTF-16LE:    FF FE 45 00 78 00 61 00 6d 00 70 00 6c 00 65 00
 Big Endian -> Big number will be stored at end.
 
 Little Endian -> Little number will be stored at end.
+
+[Reference](https://stackoverflow.com/questions/701624/difference-between-big-endian-and-little-endian-byte-order)
